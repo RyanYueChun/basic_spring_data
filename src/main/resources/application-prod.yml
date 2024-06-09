@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    name: mydb
+    url: jdbc:postgresql://host.docker.internal:5432/mydb
+    username: admin
+    password: admin

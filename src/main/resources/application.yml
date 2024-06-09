@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-data
+  profiles:
+    active: dev
+
+server:
+  port: 8000
+logging:
+  level:
+    org:
+      springframework.web: DEBUG
+      hibernate: ERROR

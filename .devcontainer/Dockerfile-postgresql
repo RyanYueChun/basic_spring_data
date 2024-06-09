@@ -1,0 +1,6 @@
+FROM postgis/postgis:16-3.4
+
+# Add a SQL script to initialize the database
+COPY init.sql /docker-entrypoint-initdb.d/init_postgis.sql
+
+EXPOSE 5432
